@@ -8,7 +8,7 @@ Vue는 비동기적으로 DOM 업데이트를 수행합니다.<br>
 이 말이 의미하는 바를 비동기 업데이트 큐를 사용하지 않은 아래의 일반적인 케이스를 통해 설명하겠습니다.<br>
 <br>
 ### 일반적인 케이스
-My Array이란 DOM Element를 담을 특정한 배열이 있고 이 배열에 새로운 Element를 push 할 때마다 DOM을 렌더링을 한다고 가정합니다.  
+My Array란 DOM Element를 담을 특정한 배열이 있고 이 배열에 새로운 Element를 push 할 때마다 DOM을 렌더링을 한다고 가정합니다.  
 
 ![image](https://user-images.githubusercontent.com/62861679/193981752-c10e7628-5340-4ffc-95d2-c942c3aa64af.png)
 <br>
