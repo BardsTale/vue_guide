@@ -57,13 +57,14 @@ Vue.nextTick(function () {
   vm.$el.textContent === 'new message' // true
 })
 ```
-<br>
+
+
 위의 코드는 Vue에서 Dom이 변경되는 시점에 관한 예제 코드이며 nextTick 콜백 함수를 사용하여 이를 설명하고 있습니다.<br>
 <b>*참고로 vue 3.0 공식 가이드에서는 this.$nextTick() 방식으로 사용하는 것을 안내하고 있으며,<br>
 또한 Promise를 반환하므로 async/await 문법 활용이 가능합니다.</b><br>
 <br>
 우리는 종종 예제 코드와 같이 기대값이 DOM에서 업데이트 되었는지 확인 후 다음 로직을 진행할 때가 있습니다.<br>
-이 경우 DOM 업데이트를 보장하는 <code>nextTick</code>을 사용하면 되며 vue 트랜지션 코드를 사용하는 경우 <b>트랜지션 훅</b>을 통해서도 가능합니다.
+이 경우 DOM 업데이트를 보장하는 <code>nextTick</code>을 사용하면 되며 vue 트랜지션 코드를 사용하는 경우 <b>[트랜지션훅](https://v3.ko.vuejs.org/guide/transitions-enterleave.html#javascript-%E1%84%92%E1%85%AE%E1%86%A8)</b>을 통해서도 가능합니다.
 
 <br>
 <br>
